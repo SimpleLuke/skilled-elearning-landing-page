@@ -1,0 +1,42 @@
+.header {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-started {
+  border: none;
+  color: $text-light-clr;
+  background-color: $primary-dark;
+  padding: 9px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  &:hover {
+    background-color: $button-clr--hover;
+    cursor: pointer;
+  }
+}
+
+//tablet
+
+@media (min-width: 768px) {
+  .header {
+    margin: 1.5rem 2.5rem;
+  }
+}
+
+//Desktop
+
+@media (min-width: 1440px) {
+  .header {
+    margin: 1.5rem 10.313rem;
+  }
+
+  .btn-started {
+    font-size: 18px;
+    padding: 14px 31px;
+  }
+}

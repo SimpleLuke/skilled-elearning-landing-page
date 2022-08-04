@@ -2,3 +2,14 @@
 
 @import "./base/colors";
 @import "./base/typography";
+
+//layout foler
+
+@import "./layout/header";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
