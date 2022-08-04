@@ -1,0 +1,40 @@
+@import "../base/components";
+
+.hero {
+  margin: 22px 0px 33px 0px;
+  .hero-container {
+    margin: 0px 16px 23px 16px;
+    h1 {
+      margin-bottom: 26px;
+      color: $primary-dark;
+    }
+    p {
+      margin-bottom: 24px;
+      color: $text-primary-clr;
+    }
+    .btn-linear {
+      @extend .btn-getStarted;
+      background-image: $warm-linear;
+      padding: 15px 37px;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .hero-img {
+    .hero-img--tablet,
+    .hero-img--desktop {
+      display: none;
+    }
+  }
+}
+
+//tablet
+
+@media (min-width: 768px) {
+}
+
+//Desktop
+
+@media (min-width: 1440px) {
+}

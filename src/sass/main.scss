@@ -6,10 +6,17 @@
 //layout foler
 
 @import "./layout/header";
+@import "./layout/hero";
 
 *,
 *::before,
 *::after {
   margin: 0;
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

@@ -1,3 +1,5 @@
+@import "../base/components";
+
 .header {
   margin: 1rem;
   display: flex;
@@ -6,17 +8,11 @@
 }
 
 .btn-started {
-  border: none;
-  color: $text-light-clr;
+  @extend .btn-getStarted;
   background-color: $primary-dark;
   padding: 9px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 25px;
   &:hover {
     background-color: $button-clr--hover;
-    cursor: pointer;
   }
 }
 
