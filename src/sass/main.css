@@ -55,7 +55,7 @@
 }
 
 .header {
-  margin: 1rem;
+  margin: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,12 +71,12 @@
 
 @media (min-width: 768px) {
   .header {
-    margin: 1.5rem 2.5rem;
+    margin: 24px 40px;
   }
 }
 @media (min-width: 1440px) {
   .header {
-    margin: 1.5rem 10.313rem;
+    margin: 24px 165px;
   }
   .btn-started {
     font-size: 18px;
@@ -232,9 +232,11 @@
 .grids-container {
   margin: -60px 16px 0 16px;
   display: grid;
+  grid-template-areas: "1" "2" "3" "4" "5" "6";
   gap: 40px;
 }
 .grids-container .col-1 {
+  grid-area: "1";
   width: 343px;
   height: 120px;
   margin: 0 auto;
@@ -247,14 +249,13 @@
   line-height: 32px;
 }
 .grids-container .col-2 {
+  grid-area: "${i}";
   width: 343px;
-  height: 259px;
   position: relative;
   margin: 0 auto;
   padding: 56px 28px 32px 28px;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid green;
 }
 .grids-container .col-2 h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -279,6 +280,9 @@
   font-weight: 700;
   line-height: 28px;
 }
+.grids-container .col-2 .text-btn:hover {
+  opacity: 0.5;
+}
 .grids-container .col-2 img {
   position: absolute;
   width: 56px;
@@ -287,14 +291,13 @@
   left: 28px;
 }
 .grids-container .col-3 {
+  grid-area: "${i}";
   width: 343px;
-  height: 259px;
   position: relative;
   margin: 0 auto;
   padding: 56px 28px 32px 28px;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid green;
 }
 .grids-container .col-3 h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -319,6 +322,9 @@
   font-weight: 700;
   line-height: 28px;
 }
+.grids-container .col-3 .text-btn:hover {
+  opacity: 0.5;
+}
 .grids-container .col-3 img {
   position: absolute;
   width: 56px;
@@ -327,14 +333,13 @@
   left: 28px;
 }
 .grids-container .col-4 {
+  grid-area: "${i}";
   width: 343px;
-  height: 259px;
   position: relative;
   margin: 0 auto;
   padding: 56px 28px 32px 28px;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid green;
 }
 .grids-container .col-4 h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -359,6 +364,9 @@
   font-weight: 700;
   line-height: 28px;
 }
+.grids-container .col-4 .text-btn:hover {
+  opacity: 0.5;
+}
 .grids-container .col-4 img {
   position: absolute;
   width: 56px;
@@ -367,14 +375,13 @@
   left: 28px;
 }
 .grids-container .col-5 {
+  grid-area: "${i}";
   width: 343px;
-  height: 259px;
   position: relative;
   margin: 0 auto;
   padding: 56px 28px 32px 28px;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid green;
 }
 .grids-container .col-5 h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -399,6 +406,9 @@
   font-weight: 700;
   line-height: 28px;
 }
+.grids-container .col-5 .text-btn:hover {
+  opacity: 0.5;
+}
 .grids-container .col-5 img {
   position: absolute;
   width: 56px;
@@ -407,14 +417,13 @@
   left: 28px;
 }
 .grids-container .col-6 {
+  grid-area: "${i}";
   width: 343px;
-  height: 259px;
   position: relative;
   margin: 0 auto;
   padding: 56px 28px 32px 28px;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid green;
 }
 .grids-container .col-6 h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -439,6 +448,9 @@
   font-weight: 700;
   line-height: 28px;
 }
+.grids-container .col-6 .text-btn:hover {
+  opacity: 0.5;
+}
 .grids-container .col-6 img {
   position: absolute;
   width: 56px;
@@ -447,6 +459,143 @@
   left: 28px;
 }
 
+@media (min-width: 768px) {
+  .grids-container {
+    grid-template-areas: "1 2" "3 4" "5 6";
+    margin: 0px 40px 0 40px;
+    padding-top: 60px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 32px;
+  }
+  .grids-container .col-1 {
+    width: 339px;
+    min-height: 287.2px;
+    padding-top: 56px;
+    padding-left: 32px;
+  }
+  .grids-container .col-2 {
+    width: 339px;
+  }
+  .grids-container .col-2 p {
+    height: 104px;
+  }
+  .grids-container .col-3 {
+    width: 339px;
+  }
+  .grids-container .col-3 p {
+    height: 104px;
+  }
+  .grids-container .col-4 {
+    width: 339px;
+  }
+  .grids-container .col-4 p {
+    height: 104px;
+  }
+  .grids-container .col-5 {
+    width: 339px;
+  }
+  .grids-container .col-5 p {
+    height: 104px;
+  }
+  .grids-container .col-6 {
+    width: 339px;
+  }
+  .grids-container .col-6 p {
+    height: 104px;
+  }
+}
+@media (min-width: 1440px) {
+  .grids-container {
+    grid-template-areas: "1 2 3" "4 5 6";
+    margin: 0px 165px 140px 165px;
+    padding-top: 170px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    row-gap: 56px;
+  }
+  .grids-container .col-1 {
+    width: 339px;
+    min-height: 336.23px;
+    padding-top: 64px;
+    padding-left: 32px;
+  }
+  .grids-container .col-1 p {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+  }
+  .grids-container .col-2 {
+    width: 350px;
+  }
+  .grids-container .col-2 h3 {
+    font-size: 24px;
+    line-height: 30.24px;
+    margin-bottom: 24px;
+  }
+  .grids-container .col-2 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 52px;
+    height: 112px;
+  }
+  .grids-container .col-3 {
+    width: 350px;
+  }
+  .grids-container .col-3 h3 {
+    font-size: 24px;
+    line-height: 30.24px;
+    margin-bottom: 24px;
+  }
+  .grids-container .col-3 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 52px;
+    height: 112px;
+  }
+  .grids-container .col-4 {
+    width: 350px;
+  }
+  .grids-container .col-4 h3 {
+    font-size: 24px;
+    line-height: 30.24px;
+    margin-bottom: 24px;
+  }
+  .grids-container .col-4 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 52px;
+    height: 112px;
+  }
+  .grids-container .col-5 {
+    width: 350px;
+  }
+  .grids-container .col-5 h3 {
+    font-size: 24px;
+    line-height: 30.24px;
+    margin-bottom: 24px;
+  }
+  .grids-container .col-5 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 52px;
+    height: 112px;
+  }
+  .grids-container .col-6 {
+    width: 350px;
+  }
+  .grids-container .col-6 h3 {
+    font-size: 24px;
+    line-height: 30.24px;
+    margin-bottom: 24px;
+  }
+  .grids-container .col-6 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 52px;
+    height: 112px;
+  }
+}
 *,
 *::before,
 *::after {
@@ -456,6 +605,7 @@
 
 body {
   overflow-x: hidden;
+  background-image: linear-gradient(#fff 50%, rgba(198, 201, 239, 0.7254901961) 100%);
 }
 
 img {
