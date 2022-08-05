@@ -1,7 +1,7 @@
 @import "../base/components";
 
 .header {
-  margin: 1rem;
+  margin: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   .header {
-    margin: 1.5rem 2.5rem;
+    margin: 24px 40px;
   }
 }
 
@@ -28,7 +28,7 @@
 
 @media (min-width: 1440px) {
   .header {
-    margin: 1.5rem 10.313rem;
+    margin: 24px 165px;
   }
 
   .btn-started {
