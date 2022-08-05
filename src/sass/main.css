@@ -42,7 +42,7 @@
   line-height: 28px;
 }
 
-.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
+.btn-getStarted, .footer .footer-container .btn-started--footer, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
   border: none;
   color: #fff;
   text-align: center;
@@ -50,7 +50,7 @@
   display: inline-block;
   border-radius: 30px;
 }
-.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
+.btn-getStarted:hover, .footer .footer-container .btn-started--footer:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
   cursor: pointer;
 }
 
@@ -83,7 +83,7 @@
     padding: 14px 31px;
   }
 }
-.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
+.btn-getStarted, .footer .footer-container .btn-started--footer, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
   border: none;
   color: #fff;
   text-align: center;
@@ -91,7 +91,7 @@
   display: inline-block;
   border-radius: 30px;
 }
-.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
+.btn-getStarted:hover, .footer .footer-container .btn-started--footer:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
   cursor: pointer;
 }
 
@@ -217,7 +217,7 @@
     right: -340px;
   }
 }
-.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .btn-started, .hero .hero-container .btn-linear {
+.btn-getStarted, .footer .footer-container .btn-started--footer, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .btn-started, .hero .hero-container .btn-linear {
   border: none;
   color: #fff;
   text-align: center;
@@ -225,7 +225,7 @@
   display: inline-block;
   border-radius: 30px;
 }
-.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .btn-started:hover, .hero .hero-container .btn-linear:hover {
+.btn-getStarted:hover, .footer .footer-container .btn-started--footer:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .btn-started:hover, .hero .hero-container .btn-linear:hover {
   cursor: pointer;
 }
 
@@ -594,6 +594,56 @@
     line-height: 28px;
     margin-bottom: 52px;
     height: 112px;
+  }
+}
+.btn-getStarted, .footer .footer-container .btn-started--footer, .btn-started, .hero .hero-container .btn-linear, .grids-container .col-2 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-6 .text-btn {
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+.btn-getStarted:hover, .footer .footer-container .btn-started--footer:hover, .btn-started:hover, .hero .hero-container .btn-linear:hover, .grids-container .col-2 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-6 .text-btn:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #13183f;
+}
+.footer .footer-container {
+  padding: 36px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-container .btn-started--footer {
+  background-image: linear-gradient(#4851ff, #f02aa6);
+  padding: 9px 24px 11px 24px;
+}
+.footer .footer-container .btn-started--footer:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 86px;
+  }
+  .footer .footer-container {
+    padding: 36px 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .footer {
+    margin-top: 140px;
+  }
+  .footer .footer-container {
+    padding: 36px 165px;
+  }
+  .footer .footer-container .btn-started--footer {
+    font-size: 18px;
+    padding: 14px 32px;
   }
 }
 *,
