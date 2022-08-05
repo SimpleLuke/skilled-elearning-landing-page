@@ -42,7 +42,7 @@
   line-height: 28px;
 }
 
-.btn-getStarted, .hero .hero-container .btn-linear, .btn-started {
+.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
   border: none;
   color: #fff;
   text-align: center;
@@ -50,7 +50,7 @@
   display: inline-block;
   border-radius: 30px;
 }
-.btn-getStarted:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
+.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
   cursor: pointer;
 }
 
@@ -83,7 +83,7 @@
     padding: 14px 31px;
   }
 }
-.btn-getStarted, .hero .hero-container .btn-linear, .btn-started {
+.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .hero .hero-container .btn-linear, .btn-started {
   border: none;
   color: #fff;
   text-align: center;
@@ -91,7 +91,7 @@
   display: inline-block;
   border-radius: 30px;
 }
-.btn-getStarted:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
+.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .hero .hero-container .btn-linear:hover, .btn-started:hover {
   cursor: pointer;
 }
 
@@ -217,6 +217,236 @@
     right: -340px;
   }
 }
+.btn-getStarted, .grids-container .col-6 .text-btn, .grids-container .col-5 .text-btn, .grids-container .col-4 .text-btn, .grids-container .col-3 .text-btn, .grids-container .col-2 .text-btn, .btn-started, .hero .hero-container .btn-linear {
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+.btn-getStarted:hover, .grids-container .col-6 .text-btn:hover, .grids-container .col-5 .text-btn:hover, .grids-container .col-4 .text-btn:hover, .grids-container .col-3 .text-btn:hover, .grids-container .col-2 .text-btn:hover, .btn-started:hover, .hero .hero-container .btn-linear:hover {
+  cursor: pointer;
+}
+
+.grids-container {
+  margin: -60px 16px 0 16px;
+  display: grid;
+  gap: 40px;
+}
+.grids-container .col-1 {
+  width: 343px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+  padding: 24px 28px 32px 28px;
+}
+.grids-container .col-1 p {
+  color: #fff;
+  line-height: 32px;
+}
+.grids-container .col-2 {
+  width: 343px;
+  height: 259px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 28px 32px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid green;
+}
+.grids-container .col-2 h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25.2px;
+  color: #13183f;
+  margin-bottom: 16px;
+}
+.grids-container .col-2 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
+  margin-bottom: 24px;
+}
+.grids-container .col-2 .text-btn {
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.grids-container .col-2 img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: -24px;
+  left: 28px;
+}
+.grids-container .col-3 {
+  width: 343px;
+  height: 259px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 28px 32px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid green;
+}
+.grids-container .col-3 h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25.2px;
+  color: #13183f;
+  margin-bottom: 16px;
+}
+.grids-container .col-3 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
+  margin-bottom: 24px;
+}
+.grids-container .col-3 .text-btn {
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.grids-container .col-3 img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: -24px;
+  left: 28px;
+}
+.grids-container .col-4 {
+  width: 343px;
+  height: 259px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 28px 32px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid green;
+}
+.grids-container .col-4 h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25.2px;
+  color: #13183f;
+  margin-bottom: 16px;
+}
+.grids-container .col-4 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
+  margin-bottom: 24px;
+}
+.grids-container .col-4 .text-btn {
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.grids-container .col-4 img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: -24px;
+  left: 28px;
+}
+.grids-container .col-5 {
+  width: 343px;
+  height: 259px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 28px 32px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid green;
+}
+.grids-container .col-5 h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25.2px;
+  color: #13183f;
+  margin-bottom: 16px;
+}
+.grids-container .col-5 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
+  margin-bottom: 24px;
+}
+.grids-container .col-5 .text-btn {
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.grids-container .col-5 img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: -24px;
+  left: 28px;
+}
+.grids-container .col-6 {
+  width: 343px;
+  height: 259px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 28px 32px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid green;
+}
+.grids-container .col-6 h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25.2px;
+  color: #13183f;
+  margin-bottom: 16px;
+}
+.grids-container .col-6 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869a;
+  margin-bottom: 24px;
+}
+.grids-container .col-6 .text-btn {
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.grids-container .col-6 img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: -24px;
+  left: 28px;
+}
+
 *,
 *::before,
 *::after {
