@@ -21,6 +21,14 @@
       }
     }
   }
+  a {
+    text-decoration: none;
+    color: $text-light-clr;
+    text-align: center;
+    p {
+      padding-bottom: 10px;
+    }
+  }
 }
 
 //tablet

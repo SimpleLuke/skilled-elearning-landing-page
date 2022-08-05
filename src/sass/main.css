@@ -625,6 +625,14 @@
 .footer .footer-container .btn-started--footer:hover {
   opacity: 0.5;
 }
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.footer a p {
+  padding-bottom: 10px;
+}
 
 @media (min-width: 768px) {
   .footer {
