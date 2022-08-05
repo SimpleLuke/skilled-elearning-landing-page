@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-1985LRGhBS)
-- Live Site URL: [Click here]([https://your-live-site-url.com](https://lucky-douhua-995b7c.netlify.app/)
+- Live Site URL: [Click here](https://lucky-douhua-995b7c.netlify.app/)
 
 ### Built with
 
